@@ -1,0 +1,156 @@
+body {
+  background-color: black;
+}
+
+audio {
+  width: 20%;
+  display: block;
+  margin: 40px auto; 
+  border: none;
+}  
+
+audio::-webkit-media-controls-play-button {
+  display: block; 
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: white;
+  color: white; 
+  border-radius: 10px; 
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.web-logo2 {
+  display: block;
+  margin: 20px auto; 
+  max-width: 20%; 
+}
+
+/* NAVIGATION MENU */
+
+.topnav {
+  background-color: gray;
+  overflow: hidden;
+  margin: 20px auto;
+  max-width: 30%; 
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #b3a3ff;
+  color: white;
+}
+
+/* MEMBERS */
+
+.member-logo {
+  display: block;
+  margin: 20px auto; 
+  max-width: 40%; 
+}
+
+.h-image {
+  display: block;
+  margin: 20px auto; 
+  max-width: 40%; 
+}
+
+.h-textbox {
+  display: block;
+  margin: 20px auto; 
+  max-width: 25%; 
+}
+
+.heart-icon {
+  display: block;
+  margin: 60px auto; 
+  max-width: 2%; 
+}
+
+.n-shaun,
+.n-sofie {
+  padding-top: 3%;
+  max-width: 12%;
+  padding-left: 25px;
+}
+
+.img-shaun,
+.img-sofie,
+.img-annika {
+  max-width: 12%;
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
+.shaun-container1, .shaun-container2,
+.sofie-container1, .sofie-container2,
+.annika-container1, .annika-container2 {
+  display: flex;
+}
+
+.student-title {
+  padding-top: 21px;
+  padding-left: 30px;
+  display: flex;
+  color: white;
+  max-width: 70%;
+}
+
+.text-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.shaun-desc,
+.sofie-desc,
+.annika-desc {
+  padding-top: 20px;
+  padding-left: 40px;
+  display: flex;
+  color: white;
+  width: 20%;
+  height: 20%;
+}
+
+.sofie-desc2,
+.shaun-desc2,
+.annika-desc2 {
+  padding-top: 2%;
+  padding-left: 30px;
+  max-width: 60%;
+}
+
+.n-sofie,
+.n-annika {
+  padding-top: 5%;
+  max-width: 12%;
+  padding-left: 25px;
+}
+
+.sofie-details {
+  color: white;
+}
+
+.media-icons {
+  width: 30px;
+  height: 30px;
+  padding-top: 40px;
+  padding-left: 20px;
+}

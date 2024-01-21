@@ -1,0 +1,99 @@
+body {
+  background-color: black;
+}
+
+audio {
+  width: 20%;
+  display: block;
+  margin: 40px auto; 
+  border: none;
+}  
+
+audio::-webkit-media-controls-play-button {
+  display: block; 
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: white;
+  color: white; 
+  border-radius: 10px; 
+}
+
+p {
+  font-family: sans-serif;
+}
+
+/* NAVIGATION MENU */
+
+.topnav {
+  background-color: gray;
+  overflow: hidden;
+  margin: 20px auto;
+  max-width: 30%; 
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #b3a3ff;
+  color: white;
+}
+
+.goals-logo {
+  display: block;
+  margin: 20px auto; 
+  max-width: 60%; 
+}
+
+.web-logo2 {
+  display: block;
+  margin: 20px auto; 
+  max-width: 20%; 
+}
+
+.h-thumbnail {
+  display: block;
+  margin: 20px auto; 
+  max-width: 60%; 
+}
+
+.individual-goals {
+  display: block;
+  margin: 20px auto; 
+  max-width: 30%; 
+}
+
+.shaun-box, .sofie-box, .annika-box {
+  display: block;
+}
+
+.i-shaun-goal, .i-sofie-goal, .i-annika-goal {
+  display: block;
+  margin: 20px auto; 
+  max-width: 25%;
+}
+
+.t-shaun-goal, .t-sofie-goal, .t-annika-goal {
+  display: block;
+  margin: 20px auto; 
+  max-width: 35%;
+}
+
+.heart-icon {
+  display: block;
+  margin: 10px auto; 
+  max-width: 2%; 
+}
